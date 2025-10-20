@@ -46,7 +46,8 @@ getHardwareAdress -> returns array of bytes holding the number, displayed as MAC
 		- allows multiple apps to connect at a time via port nums.
 		- EX: server has many funcs, like FTP, DNS, etc -> if it has 1 IP add? won't perform all func for all hosts --> so, trans layer assign unique num/connection AKA ==Port number==.
 		- ![](media/4.png)
----
+
+
 ## Examples:
 ### Sending:
 ![](media/3.png)

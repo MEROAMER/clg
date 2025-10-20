@@ -179,9 +179,15 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "yet-another-obsidian-synchronizer:YAOS": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "markitdown:Convert to Markdown with Markitdown": false
     }
   },
   "active": "540c85dc1805bed6",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Network Programming/media/12.png",
+    "Network Programming/media/3.png",
+    "Network Programming/NP - L3.md",
+    "Network Programming/NP - L1.md"
+  ]
 }

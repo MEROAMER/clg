@@ -1,1 +1,6 @@
-{}
+{
+  "attachmentFolderPath": "./media",
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true
+}

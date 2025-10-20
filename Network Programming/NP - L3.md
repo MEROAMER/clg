@@ -17,20 +17,20 @@
 
 
 ### getting specific MAC adress:
-![[Screenshot_20251019_132102_Chrome.jpg]]
+![](./media/Screenshot_20251019_132102_Chrome.jpg)
 returns string contains MAC for NetworkInterface
 getHardwareAdress -> returns array of bytes holding the number, displayed as MAC adress.
 
 
 ### OSI model:
-![[20251020_105604.jpg]]
+![](./media/20251020_105604.jpg)
 4. Transport Layer:
 	1. Segmentation: in the transportation layer, divides the data ur pc needs into smaller chunks(smaller than ur pc's internet connection) deliver them one by one, reconstruct them again + msg informs completion of the process. 
 	2. Connection Management & Reliable-Unreliable data delivery:: 
-		![[Pasted image 20251020112010.png]]
+		![](./media/)![[media/6.png]]
 		1. UDP: connectionless, unreliable, isn't guaranteed to reach destination. (VOIP protocol)
 		2. TCP: connection oriented, reliable -> gotta put extra labels on it to track where/when it is trans -> ACK when it's delivered (guaranteed delivery) + 3 ways handshake process. (HTTP, SMTP, FTP). 
-			1. ![[Pasted image 20251020112215.png]]
+			1. ![[media/5.png]]
 			2. following func to max reliability:
 				- detect loss pkg
 				- detect out-of-order pkt + reorder them
@@ -49,11 +49,11 @@ getHardwareAdress -> returns array of bytes holding the number, displayed as MAC
 ---
 ## Examples:
 ### Sending:
-![[Pasted image 20251020114223.png]]
+![[media/3.png]]
 
 ### Receiving:
-![[Pasted image 20251020114253.png]]
+![[media/2.png]]
 
 
 ### Overall Network Graph
-![[Pasted image 20251020114329.png]]
+![[media/1.png]]

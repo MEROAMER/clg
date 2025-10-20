@@ -27,10 +27,10 @@ getHardwareAdress -> returns array of bytes holding the number, displayed as MAC
 4. Transport Layer:
 	1. Segmentation: in the transportation layer, divides the data ur pc needs into smaller chunks(smaller than ur pc's internet connection) deliver them one by one, reconstruct them again + msg informs completion of the process. 
 	2. Connection Management & Reliable-Unreliable data delivery:: 
-		![](./media/)![[media/6.png]]
+		![](./media/6.png)
 		1. UDP: connectionless, unreliable, isn't guaranteed to reach destination. (VOIP protocol)
 		2. TCP: connection oriented, reliable -> gotta put extra labels on it to track where/when it is trans -> ACK when it's delivered (guaranteed delivery) + 3 ways handshake process. (HTTP, SMTP, FTP). 
-			1. ![[media/5.png]]
+			1. ![](media/5.png)
 			2. following func to max reliability:
 				- detect loss pkg
 				- detect out-of-order pkt + reorder them
@@ -45,15 +45,15 @@ getHardwareAdress -> returns array of bytes holding the number, displayed as MAC
 	4. Connection Multiplexing: port no.
 		- allows multiple apps to connect at a time via port nums.
 		- EX: server has many funcs, like FTP, DNS, etc -> if it has 1 IP add? won't perform all func for all hosts --> so, trans layer assign unique num/connection AKA ==Port number==.
-		- ![[Pasted image 20251020113951.png]]
+		- ![](media/4.png)
 ---
 ## Examples:
 ### Sending:
-![[media/3.png]]
+![](media/3.png)
 
 ### Receiving:
-![[media/2.png]]
+![](media/2.png)
 
 
 ### Overall Network Graph
-![[media/1.png]]
+![](media/1.png)

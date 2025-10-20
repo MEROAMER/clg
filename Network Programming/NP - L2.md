@@ -15,27 +15,27 @@
 - medium:
 	- wires & cables(conducted): twisted pair wire, coaxial cable, fiber optic cable.
 	- Space(wireless): microwave trans, satellite, wifi, bluetooth
-- required components to establish communication link? (sender, receiver, medium, message, protocol)![[media/13.png]]
+- required components to establish communication link? (sender, receiver, medium, message, protocol)![](media/13.png)
 
 - Data flow: 
 	- Simplex:
 		one direction all the time, ex: keyboard->CPU, TV or Radio.
-		![[media/12.png]]
+		![](media/12.png)
 	- half-dup:
 		one direction/time, not simultaneously, ex: walkie talkie.
-		![[media/11.png]]
+		![](media/11.png)
 	- full-dup:
 		both direction all time, ex: phone
-		![[media/10.png]]
+		![](media/10.png)
 
 - Internetworking Devices:
 	Core(back-bone): connect distro routers -> provide internet access(gateway router/default gateway) -has the proxy servers there-.
 	Distribution: bridges gap between access&core, (routers: connecting all switches from access to core => mesh).
 	Access: to end user devices(switches => star, tree).
-	![[media/9.png]]
+	![](media/9.png)
 
-	![[media/8.png]]
-	![[media/7.png]]
+	![](media/8.png)
+	![](media/7.png)
 	OSI Physical layer:
 	1. Hub
 	2. Repeater(not amplifying, copies & regenerate)

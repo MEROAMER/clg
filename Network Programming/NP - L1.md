@@ -33,7 +33,7 @@ server side: PHP | client side: JS.
 	sender break data into Segments, wrap with network info to Packet, reassembled @receiver.
 	
 	each net requires Specialized HW, SW.
-	![[media/15.png]]
+	![](media/15.png)
 	1. Client computers: aka workstations, used t access the shared resources.
 	2. Server computers: provide shared resources, runs many specialized resources t ctrl shared resources.
 	3. Network interface card(NIC): ==interface== enables computer t communicate over network, MUST HAVE ONE to connect to network.
@@ -46,12 +46,12 @@ server side: PHP | client side: JS.
 	2. LAN: small geo size(room, floor, building, campus)
 	3. MAN: 1-30 Miles(city).
 	4. WAN: large network(parts of state, multiple states, country, world).
-	5. ![[media/14.png]]
+	5. ![](media/14.png)
 
 	Benefits of Networking:
-	1. Info sharing: ex(store data in centralized server)
-	2. Resources sharing: allow track usage of resources
-	3. Application sharing: most common in companies.
+	6. Info sharing: ex(store data in centralized server)
+	7. Resources sharing: allow track usage of resources
+	8. Application sharing: most common in companies.
 
 	NIC: aka network adapter card NAC || Ethernet card || LAN card
 	converts PC's parallel data stream to serial stream for media(medium -wires, wireless- that connects network)

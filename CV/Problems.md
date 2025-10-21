@@ -68,7 +68,7 @@ f′(x, y)neg = (L − 1) − f(x, y)original
 ## Contrast Stretching & Contraction
 - Dynamic Range: the range in which image details exist.
 - we wanna INCREASE that range -> increasing contrast -> increase difference between elements -> expand intensity range.
-- + making the white whiter & dark darker.
+- making the white whiter & dark darker.
 - works best for: low contrast, narrow range of intensities.
 
 ### How to solve?
@@ -83,7 +83,7 @@ f′(x, y)neg = (L − 1) − f(x, y)original
 
 
 1. الخط الأول: 0 -> r1
-	- معادلة الخط دا = قيمة ال X مضروبة في الميل m
+	- معادلة الخط دا = قيمة ال X + الميل m
 	- f′(x, y) = f(x, y) + m
 	- لأن ال X عندي هنا هي ال f = dynamic range.
 

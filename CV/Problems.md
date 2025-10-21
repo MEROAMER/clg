@@ -1,4 +1,6 @@
 
+# Basic Problems
+---
 ## Neighboring
 objects are group of color/gray connected neighbor pixels.
 ![](media/Pasted%20image%2020251021040412.png)
@@ -47,3 +49,20 @@ count the number of occurrences per gray/color component value in image matrix.
 - سواءً كانت ال values في ماتريكس أو رسمة أو جدول.
 
 ---
+
+
+# Image Enhancement
+T(f(x, y)) = f′(x, y)
+- برسم معادلة خطيّة اكا علاقة بين f(x, y) قبل التغيير و f′(x, y) بعد ال enhance => مش علاقة بين x, y نوبببب
+- آخر الخط بيكون دايمًا L - 1 = 255 إلا لو حددلي في المسألة range أقف عنده.
+---
+## Image Negative
+f′(x, y)neg = (L − 1) − f(x, y)original
+
+### How to solve?
+- حرفيًا بقلب الأبيض أسود والعكس، هعمل دا إزاي؟ هجيب ال negative بتاعهم => يعني القيمة إللي كانوا هياخدوها لو مشوا بالعكس => بطرحهم من 255.
+- لو عاطيني RANGE معين بقا؟ L=2^q 
+- (q=No. of bits. if q=8, then L=28 =256)*
+
+---
+## Contrast Stretching & Contraction

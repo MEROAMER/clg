@@ -72,6 +72,7 @@ f′(x, y)neg = (L − 1) − f(x, y)original
 - works best for: low contrast, narrow range of intensities.
 
 ### How to solve?
+#### 1. Stretching
 ![](media/Pasted%20image%2020251021050217.png)
 
 - دلوقتي عندي علاقة خطية بين الدالة قبل تحسينها والدالة بعد تحسينها، كل واحدة بال x, y بتوعها -> f = dynamic range.
@@ -104,4 +105,10 @@ f′(x, y)neg = (L − 1) − f(x, y)original
 	- نفس التانية بالظبط، بس آخر قيمة في الصادات عندي = L-1 = 255.
 	- ![](media/Pasted%20image%2020251021051732.png)
 
+
+#### 2. Contraction:
+- نفس ال stretching بس هبدل ال r1, r2 => S1, S2.
 ---
+
+## Gray Scale Slicing
+

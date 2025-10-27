@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9b747517ce8f91dd",
@@ -166,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,8 +183,9 @@
       "markitdown:Convert to Markdown with Markitdown": false
     }
   },
-  "active": "53195f164b934fcc",
+  "active": "1cadcc0e7cfbf511",
   "lastOpenFiles": [
+    "CV/media/Pasted image 20251027142555.png",
     "CV/media/Pasted image 20251027141812.png",
     "CV/media/Pasted image 20251027140444.png",
     "CV/media/Pasted image 20251027135615.png",
@@ -193,7 +196,6 @@
     "CV/media/Pasted image 20251027132824.png",
     "CV/media/Pasted image 20251027132554.png",
     "CV/media/Pasted image 20251027132345.png",
-    "CV/media/Pasted image 20251027131906.png",
     "SWE2/1.md",
     "Security/1.md",
     "README.md",

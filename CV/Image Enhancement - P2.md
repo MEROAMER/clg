@@ -75,21 +75,25 @@
 ### Non-Linear
 - DOESN'T HAVE WEIGHTS
 - square odd grid
-
-
+---
 ### Median Filter
 - perform smoothing without blurring edges 
 - حل مشكلة ال spark noise 
+- ![](media/Pasted%20image%2020251027175539.png)
 
 #### How to solve?
 - Sort the gray values under the filter(Ascending)
 - Consider min value (Median of gray values) the new center pixel value.
 - ![](media/Pasted%20image%2020251027175505.png)
 
-
+---
 ### Kuwhara Filter
+- ![](media/Pasted%20image%2020251027175655.png)
 
-
+#### How to solve?
+- بقسم الفلتر ل 4 مربعات
+- بجيب ال mean, variance لكل مربع
+- بشوف المربع اللي عنده أقل variance (أقل noise) => البيكسل إللي في النص = ال mean بتاعه
 ---
 ---
 ---
@@ -97,3 +101,17 @@
 
 ### Derivative/Differential
 
+- اسمها derivative لأنها بتطلعلي قيمة لما يكون فيه تغيير في القيم بسسسس
+- ممكن نستخدمها علشان تحسّن ال edges/corners علشان تساعدنا في ال labeling/segmentation/feature extraction/CNN
+- ممكن تكون موجبة أو سالبة
+- ممكن أجيبها من low/high pass filters
+	- لو معايا low => هطرح من 255 لو عايز high والعكس.
+---
+#### 1. (8-Neighbor) Derivative
+#### 2. (4-Neighbor) Derivative
+
+#### 3. Corner Detector(Laplacian corner)
+
+#### 4. Robert Operators
+
+#### 5. Prewitt Diffrential Filter

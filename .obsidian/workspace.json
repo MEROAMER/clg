@@ -11,17 +11,14 @@
             "id": "9159b0ff75664bd5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Borders.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "CV/Image Enhancement - P2.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Borders"
+              "icon": "lucide-file",
+              "title": "Image Enhancement - P2"
             }
           }
         ]
@@ -98,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Borders.canvas",
+                "file": "CV/Image Enhancement - P2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Borders"
+              "title": "Backlinks for Image Enhancement - P2"
             }
           },
           {
@@ -146,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Borders.canvas",
+                "file": "CV/Image Enhancement - P2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Borders"
+              "title": "Outline of Image Enhancement - P2"
             }
           },
           {
@@ -188,8 +185,11 @@
   },
   "active": "9159b0ff75664bd5",
   "lastOpenFiles": [
-    "CV/Image Enhancement - P2.md",
     "Borders.canvas",
+    "media/Pasted image 20251027165403.png",
+    "media/Pasted image 20251027165331.jpg",
+    "media",
+    "CV/Image Enhancement - P2.md",
     "CV/Image Enhancement - P1.md",
     "CV/Basic Problems.md",
     "CV/media/Pasted image 20251027144922.png",
@@ -200,8 +200,6 @@
     "CV/media/Pasted image 20251027135204.png",
     "CV/media/Pasted image 20251027135027.png",
     "CV/media/Pasted image 20251027135000.png",
-    "CV/media/Pasted image 20251027134722.png",
-    "CV/media/Pasted image 20251027132824.png",
     "SWE2/1.md",
     "Security/1.md",
     "README.md",

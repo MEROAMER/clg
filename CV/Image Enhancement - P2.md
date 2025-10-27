@@ -1,5 +1,20 @@
-# Low Pass Filtering
+
+# Filtering in Spatial Domain
+---
+
+## Low Pass Filtering
+---
+### Linear
 
 
-# High Pass Filtering
+
+---
+### Non-Linear
+
+
+
+---
+
+## High Pass Filtering
+
 

@@ -36,14 +36,12 @@
 ### Spark Noise
 - نقط بيضا في الصورة
 - بحلّها إني أعمل فلتر mean للصورة كلها بيكسل بيكسل
-
 #### How to solve?
 - بجيب الفلتر بتاعي => مثال: حجمه 3 × 3
-- باخد 9 بيكسلز في المرة => بجمع كل قيم التسعة / حجم الفلتر اكا 9 
+- باخد 9 بيكسلز في المرة => بجمع كل قيم بيكسلز الصورة / مجموع ال weights في الفلتر  
 - أحط القيمة في البيكسل إللي في النص بس
 - أحرك الفلتر بيكسل كمان علشان البيكسل اللي بعد البيكسل اللي لسه مغيراه يكون هو في النص وأطبق الفلتر عليه
 - وهكذا لحد ما أخلصهم كلهم.
-
 ### Problem caused: 
 - الفلتر دا سببلي مشكلة تانية: ال edges بقت blurred => مش واضحة خالص
 - مفترض ال edge بتكون قيمته عالية جدًا علشان يكون واضح
@@ -58,19 +56,36 @@
 
 ---
 ### Pyramidal Filter
+- pyramid all over
+- الدكتور قالت هتدينا الأرقام مش هنحفظها.
+![](media/Pasted%20image%2020251027174739.png)
  ---
- 
 ### Cone Filter
+- cone of numbers
+![](media/Pasted%20image%2020251027174922.png)
 
 ---
 ### Gaussian Filter
+![](media/Pasted%20image%2020251027175038.png)
 
-
+- AVG(spark noise) Vs. Gaussian
+- ![](media/Pasted%20image%2020251027175135.png)
 ---
 ---
 ### Non-Linear
+- DOESN'T HAVE WEIGHTS
+- square odd grid
+
 
 ### Median Filter
+- perform smoothing without blurring edges 
+- حل مشكلة ال spark noise 
+
+#### How to solve?
+- Sort the gray values under the filter(Ascending)
+- Consider min value (Median of gray values) the new center pixel value.
+- ![](media/Pasted%20image%2020251027175505.png)
+
 
 ### Kuwhara Filter
 

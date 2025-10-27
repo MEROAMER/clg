@@ -107,11 +107,30 @@
 - ممكن أجيبها من low/high pass filters
 	- لو معايا low => هطرح من 255 لو عايز high والعكس.
 ---
+### Laplacian Operator
 #### 1. (8-Neighbor) Derivative
+- مجموع weights الفلتر = 0
+- لو البيكسلز إللي هيمشي عليها كلها نفس الرقم(مفيهاش تغيير) => هيصفرها
+- لو فيها تغيير => هيطلع قيم بناءً على مقدار التغيير دا
+
+![](media/Pasted%20image%2020251027180948.png)
+
 #### 2. (4-Neighbor) Derivative
+- بيتعرف على الخطوط الرأسية/الأفقية في الصورة
+- - بيتعرف على الخطوط العمودية عن طريق إنه يفصل البيكسل إللي في النص عن + حواليها
+![](media/Pasted%20image%2020251027181220.png)
 
-#### 3. Corner Detector(Laplacian corner)
 
+### Laplacian Corner
+#### 3. Corner Detector
+- بيتعرف على ال corners بتاع الصورة => يديها weight أكبر ويصفر الباقي
+![](media/Pasted%20image%2020251027181506.png)
+
+### Other Operators
 #### 4. Robert Operators
+- بيتعرف على الخطوط المحورية
+- ![](media/Pasted%20image%2020251027181543.png)
 
-#### 5. Prewitt Diffrential Filter
+#### 5. Prewitt Differential Filter
+
+#### 6. Sobel Operators

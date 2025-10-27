@@ -23,10 +23,10 @@
 --- 
 
 # Filtering in Spatial Domain
----
+
 
 ## Low Pass Filtering
----
+
 ### Linear
 - square odd grid
 - we only filter on the center of the matrix(1 pixel)
@@ -72,6 +72,8 @@
 - ![](media/Pasted%20image%2020251027175135.png)
 ---
 ---
+
+
 ### Non-Linear
 - DOESN'T HAVE WEIGHTS
 - square odd grid
@@ -97,6 +99,8 @@
 ---
 ---
 ---
+
+
 ## High Pass Filtering
 
 ### Derivative/Differential

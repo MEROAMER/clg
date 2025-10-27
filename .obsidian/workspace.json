@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cbd68fd6f41cafad",
+            "id": "1cadcc0e7cfbf511",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9b747517ce8f91dd",
@@ -166,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,23 +182,30 @@
       "markitdown:Convert to Markdown with Markitdown": false
     }
   },
-  "active": "cbd68fd6f41cafad",
+  "active": "1cadcc0e7cfbf511",
   "lastOpenFiles": [
+    "CV/media/Pasted image 20251027140444.png",
+    "CV/media/Pasted image 20251027135615.png",
+    "CV/media/Pasted image 20251027135204.png",
+    "CV/media/Pasted image 20251027135027.png",
+    "CV/media/Pasted image 20251027135000.png",
+    "CV/media/Pasted image 20251027134722.png",
+    "CV/media/Pasted image 20251027132824.png",
+    "CV/media/Pasted image 20251027132554.png",
+    "CV/media/Pasted image 20251027132345.png",
+    "CV/media/Pasted image 20251027131906.png",
+    "SWE2/1.md",
+    "Security/1.md",
+    "README.md",
+    "CV/Problems.md",
+    "Network Programming/NP - L4.md",
+    "Security",
+    "SWE2",
     "CV/media/Pasted image 20251021051732.png",
-    "CV/media/Pasted image 20251021051344.png",
-    "CV/media/Pasted image 20251021050217.png",
-    "CV/media/Pasted image 20251021043250.png",
-    "CV/media/Pasted image 20251021041819.png",
-    "CV/media/Pasted image 20251021041357.png",
-    "CV/media/Pasted image 20251021041026.png",
-    "CV/media/Pasted image 20251021040412.png",
     "CV/media",
     "Network Programming/NP - L3.md",
-    "CV/Problems.md",
     "CV",
     "Network Programming/NP - L2.md",
-    "Network Programming/NP - L1.md",
-    "Network Programming/media/12.png",
-    "Network Programming/media/3.png"
+    "Network Programming/NP - L1.md"
   ]
 }

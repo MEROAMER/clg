@@ -32,19 +32,41 @@
 - we only filter on the center of the matrix(1 pixel)
 - linear filters has weights
 - generally => it's AVG/weighted AVG.
-
-
+---
 ### Spark Noise
+- نقط بيضا في الصورة
+- بحلّها إني أعمل فلتر mean للصورة كلها بيكسل بيكسل
 
+#### How to solve?
+- بجيب الفلتر بتاعي => مثال: حجمه 3 × 3
+- باخد 9 بيكسلز في المرة => بجمع كل قيم التسعة / حجم الفلتر اكا 9 
+- أحط القيمة في البيكسل إللي في النص بس
+- أحرك الفلتر بيكسل كمان علشان البيكسل اللي بعد البيكسل اللي لسه مغيراه يكون هو في النص وأطبق الفلتر عليه
+- وهكذا لحد ما أخلصهم كلهم.
+
+### Problem caused: 
+- الفلتر دا سببلي مشكلة تانية: ال edges بقت blurred => مش واضحة خالص
+- مفترض ال edge بتكون قيمته عالية جدًا علشان يكون واضح
+- ![](media/Pasted%20image%2020251027174220.png)
+
+---
 ### Circular Filter
-### Pyramidal Filter
 
+- circle of ones around
+- بستخدمه بنفس طريقة فلتر ال spark.
+![](media/Pasted%20image%2020251027174404.png)
+
+---
+### Pyramidal Filter
+ ---
+ 
 ### Cone Filter
 
+---
 ### Gaussian Filter
 
 
-
+---
 ---
 ### Non-Linear
 
@@ -54,7 +76,8 @@
 
 
 ---
-
+---
+---
 ## High Pass Filtering
 
 ### Derivative/Differential

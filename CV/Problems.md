@@ -54,7 +54,7 @@ count the number of occurrences per gray/color component value in image matrix.
 ---
 
 
-# Image Enhancement
+# Image Enhancement - Part 1
 T(f(x, y)) = f′(x, y)
 - برسم معادلة خطيّة اكا علاقة بين f(x, y) قبل التغيير و f′(x, y) بعد ال enhance => مش علاقة بين x, y نوبببب
 - آخر الخط بيكون دايمًا L - 1 = 255 إلا لو حددلي في المسألة range أقف عنده.
@@ -208,6 +208,3 @@ f′(x, y)neg = (L − 1) − f(x, y)original
 - طيب لو اوبجكت اتحرك من مكان لمكان؟ هيفضل ال overall sum هو هو 
 
 ![](media/Pasted%20image%2020251027144922.png)
-
----
-

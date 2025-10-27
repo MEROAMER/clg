@@ -106,6 +106,7 @@
 - ممكن تكون موجبة أو سالبة
 - ممكن أجيبها من low/high pass filters
 	- لو معايا low => هطرح من 255 لو عايز high والعكس.
+	- ![](media/Pasted%20image%2020251027181746.png)
 ---
 ### Laplacian Operator
 #### 1. (8-Neighbor) Derivative
@@ -129,8 +130,11 @@
 ### Other Operators
 #### 4. Robert Operators
 - بيتعرف على الخطوط المحورية
-- ![](media/Pasted%20image%2020251027181543.png)
+![](media/Pasted%20image%2020251027181543.png)
 
+#### Corners + Perpendicular + Diagonal
 #### 5. Prewitt Differential Filter
+![](media/Pasted%20image%2020251027181717.png)
 
 #### 6. Sobel Operators
+![](media/Pasted%20image%2020251027181724.png)

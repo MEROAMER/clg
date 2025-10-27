@@ -167,8 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,6 +184,10 @@
   },
   "active": "9159b0ff75664bd5",
   "lastOpenFiles": [
+    "CV/media/Pasted image 20251027181746.png",
+    "CV/media/Pasted image 20251027181724.png",
+    "CV/media/Pasted image 20251027181717.png",
+    "CV/media/Pasted image 20251027181543.png",
     "CV/media/Pasted image 20251027181506.png",
     "CV/media/Pasted image 20251027181220.png",
     "CV/media/Pasted image 20251027180948.png",
@@ -192,10 +195,6 @@
     "CV/media/Pasted image 20251027175655.png",
     "CV/media/Pasted image 20251027175539.png",
     "CV/media/Pasted image 20251027175505.png",
-    "CV/media/Pasted image 20251027175135.png",
-    "CV/media/Pasted image 20251027175038.png",
-    "CV/media/Pasted image 20251027174922.png",
-    "CV/media/Pasted image 20251027174739.png",
     "Borders.canvas",
     "media",
     "CV/Image Enhancement - P2.md",

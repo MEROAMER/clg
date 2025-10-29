@@ -73,11 +73,9 @@ f′(x, y)neg = (L − 1) − f(x, y)original
 
 ## Bit Plane Slicing
 ![](media/Pasted%20image%2020251027132554.png)
-- دلوقتي أنا الصورة عندي متكونة من 8-bit من 0 -> 7
-- كل bit عبارة عن binary pixel block زي شبكة من المربعات البيكسلز إللي بتحمل قيمة binary 
-- ال blocks دول بيترصوا فوق بعض علشان يكونوا الصورة الكاملة 8-bits
-- لو حطيت قيمة plane 7 تساوي 0 => هتكون سودا جدًا (اعتبرها ال 0 بتاع ال gray levels)
--  لو حطيت قيمة plane 7 تساوي 1 => هتكون بيضا جدًا (اعتبرها ال 255 بتاع ال gray levels)
+- دلوقتي أنا الصورة عندي متكونة من pixels، كل pixel متخزن في 8-bits
+- لو أخدت ال bit الأول بس في كل بيكسل -> جبت bit-plane slice 0
+- باخد قيمة ال gray level المتخزنة في ال bits بتاع كل pixel وأعملها slicing حسب هاخد كام bit يعملوا representation للبيكسل بتاعي.
 - ![](media/Pasted%20image%2020251027132824.png)
 
 ---

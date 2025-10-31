@@ -28,7 +28,11 @@
 
 7. SWE & Web:
 	1. organizations increasingly developing web-based sys rather than local ones
-	2. cloud-computing 
+	2. cloud-computing is approach to pro-vision of computer services where apps run remotely on "cloud"
+	3. when constructing these systems => sw reuse is dom, try assembling it from pre-existing sw components/sys
+	4. web-based sys should be dev incrementally(impractical to specify all req in advance)
+	5. UI constrained by capabilities of web browser
+	6. web-based => complex distributed systems
 
 8. Importance of SWE:
 	 - more ppl rely on advanced sw sys, we need tb able to produce reliable, trusty systems economically + quickly
@@ -65,4 +69,5 @@
 		5. Data Collection: collecting data from environment through sensors => pass them to other systems.
 		6. Systems for systems: systems composed of other software systems.
 
-13. 
+## Summary
+- ![](media/Pasted%20image%2020251031202409.png)

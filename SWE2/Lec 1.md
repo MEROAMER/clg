@@ -42,4 +42,15 @@
 		 - Ex.: embedded control sys || air traffic ctrl sys || Traffic monitor sys.
 		 - Specifications & Changes: owned/Decided by Customer.
 
-9. Issues
+9. Issues affecting SW:
+	1. heterogeneity: sys required to operate over distributed systems on networks of different types of hw.
+	2. Business/Social change: changing quickly as new economics develop + technologies => they need t adapt & rapidly develop new SW.
+	3. Security: as it's intertwined with all our lives, we need tb able to trust SW.
+
+10. SW diversity: many different techniques/systems/tools, depends on app, requirements, dev team.
+
+11. Application Types
+	1. Stand-Alone:
+	2. Interactive transaction based:
+	3. Embedded Control
+	4. 

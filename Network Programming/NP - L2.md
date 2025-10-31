@@ -32,10 +32,11 @@
 	Core(back-bone): connect distro routers -> provide internet access(gateway router/default gateway) -has the proxy servers there-.
 	Distribution: bridges gap between access&core, (routers: connecting all switches from access to core => mesh).
 	Access: to end user devices(switches => star, tree).
-	![](media/9.png)
+	- ![](media/9.png)
 
-	![](media/8.png)
-	![](media/7.png)
+	- ![](media/8.png)
+	- ![](media/7.png)
+   
 	OSI Physical layer:
 	1. Hub
 	2. Repeater(not amplifying, copies & regenerate)

@@ -11,6 +11,7 @@
 3. what's a GOOD SW? 
 	- deliver required functionality + performance => to user
 	- should be: maintainable + dependable + usable
+	- ![](media/Pasted%20image%2020251031183020.png)
 
 4. fundamental SW activities:
 	 - specification
@@ -35,7 +36,10 @@
 8. SW Products:
 	 1. Generic Products: Stand-Alone systems, marketed/sold to any customer
 		 - Ex.: graphics programs || proj mng tools || appointment sys.
-		 - Specifications & Changes: owned by SW developer.
-	 2. Customized Products: Commissioned by customer to meet their needs(embedded control sys || air traffic ctrl sys || Traffic monitor sys).
+		 - Specifications & Changes: owned/made by SW Developer.
+
+	 2. Customized Products: Commissioned by customer to meet their needs
+		 - Ex.: embedded control sys || air traffic ctrl sys || Traffic monitor sys.
+		 - Specifications & Changes: owned/Decided by Customer.
 
 9. 

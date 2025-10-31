@@ -33,7 +33,9 @@ server side: PHP | client side: JS.
 	sender break data into Segments, wrap with network info to Packet, reassembled @receiver.
 	
 	each net requires Specialized HW, SW.
+
 	![](media/15.png)
+
 	1. Client computers: aka workstations, used t access the shared resources.
 	2. Server computers: provide shared resources, runs many specialized resources t ctrl shared resources.
 	3. Network interface card(NIC): ==interface== enables computer t communicate over network, MUST HAVE ONE to connect to network.

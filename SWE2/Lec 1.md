@@ -25,4 +25,17 @@
 
 6. ![](media/Pasted%20image%2020251031181604.png)
 
-7. 
+7. Importance of SWE:
+	 - more ppl rely on advanced sw sys, we need tb able to produce reliable, trusty systems economically + quickly
+	 - using SWE methods + techniques = cheaper on the long run => rather than just writing programs as personal project.
+	 - majority of costs => changing sw after deployment.
+	 - cost of sw on computer > hw cost.
+	 - costs to maintain > to develop
+
+8. SW Products:
+	 1. Generic Products: Stand-Alone systems, marketed/sold to any customer
+		 - Ex.: graphics programs || proj mng tools || appointment sys.
+		 - Specifications & Changes: owned by SW developer.
+	 2. Customized Products: Commissioned by customer to meet their needs(embedded control sys || air traffic ctrl sys || Traffic monitor sys).
+
+9. 

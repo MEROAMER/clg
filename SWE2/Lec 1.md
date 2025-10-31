@@ -50,7 +50,13 @@
 10. SW diversity: many different techniques/systems/tools, depends on app, requirements, dev team.
 
 11. Application Types
-	1. Stand-Alone:
-	2. Interactive transaction based:
-	3. Embedded Control
-	4. 
+	1. Apps:
+		1. Stand-Alone: run on local pc, don't need network.
+		2. Interactive transaction based: run on remote computer, accessed by user from PC/terminal(e-commerce || web apps).
+	2. Systems:
+		1. Embedded Control: control/mng HW devices.(the dominant type).
+		2. Batch Processing: designed to process large numbers of data in batches => to create corresponding outputs.
+		3. Entertainment: primarily for personal use to entertain user 
+		4. Modelling & Simulation: dev by scientists + eng to model physical processes/situations including many objects.
+		5. Data Collection: collecting data from environment through sensors => pass them to other systems.
+		6. Systems for systems: 

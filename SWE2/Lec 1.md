@@ -14,17 +14,17 @@
 	- ![](media/Pasted%20image%2020251031183020.png)
 
 4. fundamental SW activities:
-	 - specification
-	 - development
-	 - validation
-	 - evolution
+	 - specification: customers + engineers => define sw + constraints on its operations.
+	 - development: sw designed + programmed.
+	 - validation: sw checked to ensure it's "what customer want"
+	 - evolution: sw modified to reflect changing customer/market req.
 
 5. difference between SWE & CS & system engineering?
 	- SWE: practicalities of dev + delivering useful software(part of sys eng)
 	- CS: focus on theory & funds
 	- Sys Eng: all aspects of computer-based sys dev including hardware, software, process engineering.
 
-6. ![](media/Pasted%20image%2020251031181604.png)
+6. imp questions![imp questions](media/Pasted%20image%2020251031181604.png)
 
 7. Importance of SWE:
 	 - more ppl rely on advanced sw sys, we need tb able to produce reliable, trusty systems economically + quickly
@@ -42,4 +42,4 @@
 		 - Ex.: embedded control sys || air traffic ctrl sys || Traffic monitor sys.
 		 - Specifications & Changes: owned/Decided by Customer.
 
-9. 
+9. Issues

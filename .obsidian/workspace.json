@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CV/Image Enhancement - P2.md",
+                "file": "SWE2/Lec 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Image Enhancement - P2"
+              "title": "Lec 1"
             }
           }
         ]
@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,6 +185,7 @@
   },
   "active": "9159b0ff75664bd5",
   "lastOpenFiles": [
+    "CV/Image Enhancement - P2.md",
     "CV/media/Pasted image 20251027181746.png",
     "CV/media/Pasted image 20251027181724.png",
     "CV/media/Pasted image 20251027181717.png",
@@ -194,13 +196,11 @@
     "CV/media/Pasted image 20251027180750.png",
     "CV/media/Pasted image 20251027175655.png",
     "CV/media/Pasted image 20251027175539.png",
-    "CV/media/Pasted image 20251027175505.png",
     "Borders.canvas",
     "media",
-    "CV/Image Enhancement - P2.md",
     "CV/Image Enhancement - P1.md",
     "CV/Basic Problems.md",
-    "SWE2/1.md",
+    "SWE2/Lec 1.md",
     "Security/1.md",
     "README.md",
     "Network Programming/NP - L4.md",

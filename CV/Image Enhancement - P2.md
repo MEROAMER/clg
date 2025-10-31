@@ -99,8 +99,6 @@
 ---
 ---
 ---
-
-
 ## High Pass Filtering
 
 ### Derivative/Differential

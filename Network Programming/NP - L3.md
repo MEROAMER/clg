@@ -24,6 +24,8 @@ getHardwareAdress -> returns array of bytes holding the number, displayed as MAC
 
 ### OSI model:
 ![](./media/20251020_105604.jpg)
+
+
 4. Transport Layer:
 	1. Segmentation: in the transportation layer, divides the data ur pc needs into smaller chunks(smaller than ur pc's internet connection) deliver them one by one, reconstruct them again + msg informs completion of the process. 
 	2. Connection Management & Reliable-Unreliable data delivery:: 

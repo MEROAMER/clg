@@ -39,7 +39,16 @@
 
 	7. MIME media types(Multipurpose Internet Mail Extension)
 		- extension of e-mail protocol to send multimedia data through email, let people exchange different kinds of data(video, img, app, etc.)
-		- describes fie content => so client sw
+		- describes fie content => so client sw can recognize it
+		- Ex.: 
+			- browser use MIME to tell if file is GIF or text 
+			- Server: insert MIME header @begining of transmission
+			- Client: use header to select appropriate app (application layer)
+		- Types & Subs:
+			- MIME support > 100 types
+			- Type: generally, what kind of data contained(image, video, text)
+			- Sub-Type: identifies specific type(GIF img, JPEG img, etc)
+		- ![](media/Pasted%20image%2020251101220002.png)
 
 
 4. Browser 

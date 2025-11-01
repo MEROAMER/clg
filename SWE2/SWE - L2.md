@@ -15,4 +15,15 @@
 	- 8 principles -> behavior/decisions of swe
 	- why? the large role of swe + computers in society and their influence on people => they should commit themselves to making swe respected profession.
 	- ![](media/Pasted%20image%2020251101112856.png)
-	- 
+
+
+## Case Studies
+
+1. Personal Insulin Pump
+	1. an embedded system in insulin pump used by diabetics to maintain blood glucose control
+
+2. Mental health case patient mng system
+	1. maintain records of people receiving care for mental health problems
+
+3. Wilderness weather station
+	1. data collection system collects weather condition data in remote areas

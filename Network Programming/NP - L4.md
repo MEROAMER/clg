@@ -6,25 +6,37 @@
 	2. Web browser: apps helping us access web.
 	3. communication between client & server => use specific app-lvl protocol(HTTP, FTP, SMTP, POP).
 
+
 2. HTTP(Hyper Text Transfer Protocol)
 	1. most popular app protocol used in web.
 	2. client send req msg => server returns response (like a pull protocol).
 	3. stateless protocol, current req doesn't know history of other req.
 	4. ![](media/Pasted%20image%2020251101172758.png)
 
+
 3. Browser 
 	1. write an URL in browser bar => browser converts it to req msg + send to server
 	2. HTTP server interrupt msg => send you the resource OR error msg
 	3. ![](media/Pasted%20image%2020251101173047.png)
 
-4. URLs(Uniform Resource Identifier)
+
+4. Absolute URLs(Uniform Resource Identifier)
 	1. string of characters that uniquely identifies a resource(file, mail, msg)
 	2. specifies:
 		1. the location of file
 		2. the protocol to access the server/mechanism of retrieving file.
 		3. name of server.
 
-5. URNs(Uniform Resource Name)
+
+5. Relative URLs
+	1. type of URL specifies location of resource relative to current page.
+	2. DOESN'T include: domain name, protocol 
+	3. used to link resources in the same website wo specifying the whole URL.
+	4. URL Vs. RURL![](media/Pasted%20image%2020251101211143.png)
+		1. a
+
+
+6. URNs(Uniform Resource Name)
 	1. only the name of resource
 	2. starts with (urn)
 	3. identifies resource without protocol/location.
@@ -58,8 +70,16 @@
 		6. fragment => specifies location within the resource
 			- print here is fragment ![](media/Pasted%20image%2020251101204906.png)
 
-2. Retrieval URLs
-	1. 
+
+2. Relative URLs(Absolute URL)
+	1. type of URL specifies location of resource relative to current page.
+	2. DOESN'T include: domain name, protocol 
+	3. used to link resources in the same website wo specifying the whole URL.
+	4. Syntax: ![](media/Pasted%20image%2020251101210924.png)
+		1. linkhere.html => page u wanna link to it
+		2. Click Me => name of link that page will display
+	5. 
+
 
 3. URNs(Uniform Resource Name)
 	1. only the name of resource

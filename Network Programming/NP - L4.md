@@ -18,7 +18,16 @@
 	3. ![](media/Pasted%20image%2020251101173047.png)
 
 4. URLs(Uniform Resource Identifier)
-	1. string of characters that identifies a resource(file, mail, msg)
-	2. 
+	1. string of characters that uniquely identifies a resource(file, mail, msg)
+	2. way to determine particular resource on particular location.
+	3. specifies:
+		1. the location of file
+		2. the protocol to access the server/mechanism of retrieving file.
+		3. name of server.
+	4. Syntax: ![](media/Pasted%20image%2020251101202118.png)
+		1. protocol: app-lvl protocol(HTTP, FTP) used by client & server
+		2. host name: DNS name(www.xyz.com) or IP add(192.168.x.x)
+		3. port: TCP port number that SERVER LISTED FOR REQUESTS.
+		4. path-and-file-name: 
 
 ## Breakdown

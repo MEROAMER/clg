@@ -25,7 +25,17 @@
 	
 2. Mental health case patient mng system
 	1. maintain records of people receiving care for mental health problems
-	2. 
+	2.  Ex.: MHC-PMS 
+	- offline and online versions, centralized DBS
+	- goal: generate mng information => allows mngr to assess performance + provide stuff with info to support treatment.
+	- features: individual care mngmnt + patient monitoring + admin reports
+	- concerns: confidentiality of info(privacy) + suicidal warnings(safety)
+	- ![](media/Pasted%20image%2020251101165218.png)
 
 3. Wilderness weather station
 	1. data collection system collects weather condition data in remote areas
+	2. components:
+		- weather station: collecting, carrying out some processing, transm
+		-  ![](media/Pasted%20image%2020251101165533.png)
+	
+		

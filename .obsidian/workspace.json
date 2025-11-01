@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SWE2/SWE - L2.md",
+                "file": "Network Programming/NP - L4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SWE - L2"
+              "title": "NP - L4"
             }
           }
         ],
@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,12 +200,12 @@
   },
   "active": "c33e43a811d3128e",
   "lastOpenFiles": [
+    "SWE2/SWE - L2.md",
     "SWE2/media/Pasted image 20251101165533.png",
     "SWE2/media/Pasted image 20251101165218.png",
     "SWE2/media/Pasted image 20251101115031.png",
     "SWE2/media/Pasted image 20251101112856.png",
     "SWE2/SWE - L1.md",
-    "SWE2/SWE - L2.md",
     "SWE2/media/Pasted image 20251031202409.png",
     "SWE2/media/Pasted image 20251031183020.png",
     "SWE2/media/Pasted image 20251031181604.png",
@@ -214,7 +215,6 @@
     "Network Programming/media 1/Pasted image 20251027165331.jpg",
     "Network Programming/media/1.png",
     "CV/Image Enhancement - P2.md",
-    "CV/media/Pasted image 20251027181746.png",
     "Borders.canvas",
     "Network Programming/media 1",
     "CV/Image Enhancement - P1.md",

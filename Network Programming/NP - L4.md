@@ -19,6 +19,21 @@
 
 4. URLs(Uniform Resource Identifier)
 	1. string of characters that uniquely identifies a resource(file, mail, msg)
+	2. specifies:
+		1. the location of file
+		2. the protocol to access the server/mechanism of retrieving file.
+		3. name of server.
+
+5. URNs(Uniform Resource Name)
+	1. only the name of resource
+	2. starts with (urn)
+	3. identifies resource without protocol/location.
+	4. URN Vs. URL => city's name Vs. location on map.
+
+## Breakdown
+
+1. URLs(Uniform Resource Identifier)
+	1. string of characters that uniquely identifies a resource(file, mail, msg)
 	2. way to determine particular resource on particular location.
 	3. specifies:
 		1. the location of file
@@ -42,8 +57,18 @@
 			- +query form ![](media/Pasted%20image%2020251101204555.png)
 		6. fragment => specifies location within the resource
 			- print here is fragment ![](media/Pasted%20image%2020251101204906.png)
-	
-5. URNs(Uniform Resource Name)
+
+2. Retrieval URLs
 	1. 
 
-## Breakdown
+3. URNs(Uniform Resource Name)
+	1. only the name of resource
+	2. starts with (urn)
+	3. identifies resource without protocol/location.
+	4. URN Vs. URL => city's name Vs. location on map.
+	5. General Form:![](media/Pasted%20image%2020251101205911.png)
+		1. urn => prefix in ALL URNs
+		2. namespace => name of collection of certain kind of resources
+		3. resource_name => resource u want
+		4. Ex.: ![](media/Pasted%20image%2020251101210042.png)
+

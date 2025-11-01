@@ -182,7 +182,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,6 +200,8 @@
   },
   "active": "c33e43a811d3128e",
   "lastOpenFiles": [
+    "Network Programming/media/Pasted image 20251101210042.png",
+    "Network Programming/media/Pasted image 20251101205911.png",
     "Network Programming/media/Pasted image 20251101205015.png",
     "Network Programming/media/Pasted image 20251101204906.png",
     "Network Programming/media/Pasted image 20251101204555.png",
@@ -209,8 +212,6 @@
     "Network Programming/media/Pasted image 20251101172758.png",
     "SWE2/SWE - L2.md",
     "SWE2/media/Pasted image 20251101165533.png",
-    "SWE2/media/Pasted image 20251101165218.png",
-    "SWE2/media/Pasted image 20251101115031.png",
     "SWE2/SWE - L1.md",
     "SWE2/media",
     "Network Programming/NP - L1.md",

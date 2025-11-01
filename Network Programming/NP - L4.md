@@ -1,4 +1,4 @@
-
+![](media/Pasted%20image%2020251101205015.png)
 ## Definitions
 
 1. Web
@@ -29,8 +29,7 @@
 		2. host name: DNS name(www.xyz.com) or IP add(192.168.x.x)
 		3. port: TCP port number that SERVER LISTED FOR REQUESTS.
 		4. path-and-file-name: name+location of resource under the server base dir.
-	5. ![](media/Pasted%20image%2020251101202615.png)
-	6. General Form:![](media/Pasted%20image%2020251101202839.png)
+	5. General Form:![](media/Pasted%20image%2020251101202839.png)
 		1. protocol = scheme of URL
 		2. username:pass => optional for server
 		3. hostname:port => name of server w resource, port is optional
@@ -40,5 +39,11 @@
 			- & => adding more parameters to query
 			- search=ruby => name/value pair
 			- result=10 => name/value pair
+			- +query form ![](media/Pasted%20image%2020251101204555.png)
+		6. fragment => specifies location within the resource
+			- print here is fragment ![](media/Pasted%20image%2020251101204906.png)
+	
+5. URNs(Uniform Resource Name)
+	1. 
 
 ## Breakdown

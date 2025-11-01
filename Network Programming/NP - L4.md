@@ -37,7 +37,7 @@
 			- exe compression auto of req/response
 			- Add connection reset => if connection closed, auto open new one.
 
-	7. MIME media types(Multipurpose Internet Mail Extension)
+3. MIME media types(Multipurpose Internet Mail Extension)
 		- extension of e-mail protocol to send multimedia data through email, let people exchange different kinds of data(video, img, app, etc.)
 		- describes fie content => so client sw can recognize it
 		- Ex.: 

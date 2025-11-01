@@ -11,5 +11,8 @@
 	3. Intellectual property rights: should be aware of local laws + careful to ensure their client's protected.
 	4. Computer misuse: swe shouldn't misuse client's computers, for playing games/viruses.
 
-3. ACM/IEEE code of ethics:
+3. ACM/IEEE code of ethics (US):
+	- 8 principles -> behavior/decisions of swe
+	- why? the large role of swe + computers in society and their influence on people => they should commit themselves to making swe respected profession.
+	- ![](media/Pasted%20image%2020251101112856.png)
 	- 

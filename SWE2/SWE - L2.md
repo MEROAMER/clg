@@ -21,9 +21,11 @@
 
 1. Personal Insulin Pump
 	1. an embedded system in insulin pump used by diabetics to maintain blood glucose control
-
+	2. ![](media/Pasted%20image%2020251101115031.png)
+	
 2. Mental health case patient mng system
 	1. maintain records of people receiving care for mental health problems
+	2. 
 
 3. Wilderness weather station
 	1. data collection system collects weather condition data in remote areas

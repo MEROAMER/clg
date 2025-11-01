@@ -12,6 +12,7 @@
 	2. client send req msg => server returns response (like a pull protocol).
 	3. stateless protocol, current req doesn't know history of other req.
 	4. ![](media/Pasted%20image%2020251101172758.png)
+	5. 
 
 
 3. Browser 
@@ -100,7 +101,7 @@
 
 4. Browser 
 	1. write an URL in browser bar => browser converts it to req msg + send to server
-	2. HTTP server interrupt msg => send you the resource OR error msg
-	3. ![](media/Pasted%20image%2020251101173047.png)
-	4. 
+	2. HTTP server interrupt msg => send you the resource OR error msg![](media/Pasted%20image%2020251101173047.png)
+	3. **Response message**![](media/Pasted%20image%2020251101212548.png)
+	4. Browser receive the response msg => interpret msg => display contents according to media type(the content type in the bottom of response) (done in presentation layer)
 

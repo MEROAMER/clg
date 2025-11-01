@@ -24,10 +24,17 @@
 		1. the location of file
 		2. the protocol to access the server/mechanism of retrieving file.
 		3. name of server.
-	4. Syntax: ![](media/Pasted%20image%2020251101202118.png)
+	4. Syntax: default port(80 for HTTP)![](media/Pasted%20image%2020251101202118.png)
 		1. protocol: app-lvl protocol(HTTP, FTP) used by client & server
 		2. host name: DNS name(www.xyz.com) or IP add(192.168.x.x)
 		3. port: TCP port number that SERVER LISTED FOR REQUESTS.
-		4. path-and-file-name: 
+		4. path-and-file-name: name+location of resource under the server base dir.
+	5. ![](media/Pasted%20image%2020251101202615.png)
+	6. General Form:![](media/Pasted%20image%2020251101202839.png)
+		1. protocol = scheme of URL
+		2. username:pass => optional for server
+		3. hostname:port => name of server w resource, port is optional
+		4. path/filename => points to dir on the server/specific file on the dir
+		5. query => contains form data for input to programs on server.
 
 ## Breakdown

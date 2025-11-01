@@ -19,7 +19,7 @@
 			2. apply rules specified in config
 			3. takes action
 
-	5. HTTP + TCP/IP => port nums
+	5. HTTP + TCP/IP => port num
 		1. if not specified => default = 80 for HTTP
 		2. if wanna specify => ![](media/Pasted%20image%2020251101214208.png)
 

@@ -7,12 +7,24 @@
 	3. communication between client & server => use specific app-lvl protocol(HTTP, FTP, SMTP, POP).
 
 
-2. HTTP(Hyper Text Transfer Protocol)
+2. HTTP(Hyper Text Transfer Protocol). ![](media/Pasted%20image%2020251101172758.png)
 	1. most popular app protocol used in web.
 	2. client send req msg => server returns response (like a pull protocol).
 	3. stateless protocol, current req doesn't know history of other req.
-	4. ![](media/Pasted%20image%2020251101172758.png)
-	5. 
+	4. in IDLE state:
+		1. just listens to IP add/Port in config for incoming requests
+		2. when req arrive:
+			1. server analyze msg header
+			2. apply rules specified in config
+			3. takes action
+	5. HTTP + TCP/IP => port nums
+		1. if not specified => default = 80 for HTTP
+		2. if wanna specify => ![](media/Pasted%20image%2020251101214208.png)
+	6. HTTP Specifications:
+		- original HTTP/0.9 => transfer raw data
+		1. HTTP/1.0 => allowing MIME-like msg + open new connection/request
+		2. HTTP/1.1 => 
+		3. HTTP/2.0 => 
 
 
 3. Browser 

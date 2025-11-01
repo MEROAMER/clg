@@ -35,7 +35,9 @@
 3. Wilderness weather station
 	1. data collection system collects weather condition data in remote areas
 	2. components:
-		- weather station: collecting, carrying out some processing, transm
+		- weather station: collecting, carrying out some processing, transmit to data mng
+		- data mng & archiving: collect data from weather stations, does processing n analysis, archive data.
+		- station maintenance: connecting through satellite to maintain n monitor health of system, monitor instruments, power(batteries charged), hw, report faults, shut down hw in bad weather, configurations.
 		-  ![](media/Pasted%20image%2020251101165533.png)
 	
 		

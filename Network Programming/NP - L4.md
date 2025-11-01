@@ -36,5 +36,9 @@
 		3. hostname:port => name of server w resource, port is optional
 		4. path/filename => points to dir on the server/specific file on the dir
 		5. query => contains form data for input to programs on server.
+			- ? => start of query string			
+			- & => adding more parameters to query
+			- search=ruby => name/value pair
+			- result=10 => name/value pair
 
 ## Breakdown

@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "NP - L4"
             }
+          },
+          {
+            "id": "d977e70919c9e89e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Network Programming/NP - L5.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "NP - L5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,13 +197,14 @@
       "markitdown:Convert to Markdown with Markitdown": false
     }
   },
-  "active": "c33e43a811d3128e",
+  "active": "d977e70919c9e89e",
   "lastOpenFiles": [
+    "Network Programming/NP - L4.md",
+    "Network Programming/NP - L5.md",
     "Network Programming/media/Pasted image 20251101220002.png",
     "Network Programming/media/Pasted image 20251101214251.png",
     "Network Programming/media/Pasted image 20251101214208.png",
     "Network Programming/NP - L3.md",
-    "Network Programming/NP - L4.md",
     "![](./media/20251020_105604.jpg).md",
     "![](./media",
     "![](.",
@@ -199,7 +215,6 @@
     "Network Programming/media/Pasted image 20251101210042.png",
     "Network Programming/media/Pasted image 20251101205911.png",
     "Network Programming/media/Pasted image 20251101205015.png",
-    "Network Programming/media/Pasted image 20251101204906.png",
     "SWE2/SWE - L2.md",
     "SWE2/SWE - L1.md",
     "SWE2/media",

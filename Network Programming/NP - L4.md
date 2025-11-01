@@ -33,7 +33,8 @@
 	2. DOESN'T include: domain name, protocol 
 	3. used to link resources in the same website wo specifying the whole URL.
 	4. URL Vs. RURL![](media/Pasted%20image%2020251101211143.png)
-		1. a
+		1. URL => always include domain name(http://www.), browser goes to the site
+		2. RURL => only point to file/path, browser goes to that location on same site
 
 
 6. URNs(Uniform Resource Name)
@@ -78,7 +79,11 @@
 	4. Syntax: ![](media/Pasted%20image%2020251101210924.png)
 		1. linkhere.html => page u wanna link to it
 		2. Click Me => name of link that page will display
-	5. 
+	
+	5. URL Vs. RURL![](media/Pasted%20image%2020251101211143.png)
+		1. URL => always include domain name(http://www.), browser goes to the site
+		2. RURL => only point to file/path, browser goes to that location on same site
+	6. Mechanism:![](media/Pasted%20image%2020251101211645.png)
 
 
 3. URNs(Uniform Resource Name)
@@ -91,4 +96,11 @@
 		2. namespace => name of collection of certain kind of resources
 		3. resource_name => resource u want
 		4. Ex.: ![](media/Pasted%20image%2020251101210042.png)
+
+
+4. Browser 
+	1. write an URL in browser bar => browser converts it to req msg + send to server
+	2. HTTP server interrupt msg => send you the resource OR error msg
+	3. ![](media/Pasted%20image%2020251101173047.png)
+	4. 
 

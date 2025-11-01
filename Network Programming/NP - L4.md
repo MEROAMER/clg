@@ -18,5 +18,7 @@
 	3. ![](media/Pasted%20image%2020251101173047.png)
 
 4. URLs(Uniform Resource Identifier)
+	1. string of characters that identifies a resource(file, mail, msg)
+	2. 
 
 ## Breakdown

@@ -11,29 +11,44 @@
 	1. most popular app protocol used in web.
 	2. client send req msg => server returns response (like a pull protocol).
 	3. stateless protocol, current req doesn't know history of other req.
+
 	4. in IDLE state:
 		1. just listens to IP add/Port in config for incoming requests
 		2. when req arrive:
 			1. server analyze msg header
 			2. apply rules specified in config
 			3. takes action
+
 	5. HTTP + TCP/IP => port nums
 		1. if not specified => default = 80 for HTTP
 		2. if wanna specify => ![](media/Pasted%20image%2020251101214208.png)
+
 	6. HTTP Specifications:
 		- original HTTP/0.9 => transfer raw data
-		1. HTTP/1.0 => allowing MIME-like msg + open new connection/request
-		2. HTTP/1.1 => 
-		3. HTTP/2.0 => 
+		1. HTTP/1.0 
+			- allowing MIME-like msg 
+			- open new connection/request
+		2. HTTP/1.1 
+			- reuse connections, browser can send many req over single connection
+			- connection remains open till explicitly closed.
+			- asynchronous(don't wait for response before sending 2nd,3rd req)
+		3. HTTP/2.0 
+			- improves protocol performance
+			- exe compression auto of req/response
+			- Add connection reset => if connection closed, auto open new one.
+
+	7. MIME media types(Multipurpose Internet Mail Extension)
+		- extension of e-mail protocol to send multimedia data through email, let people exchange different kinds of data(video, img, app, etc.)
+		- describes fie content => so client sw
 
 
-3. Browser 
+4. Browser 
 	1. write an URL in browser bar => browser converts it to req msg + send to server
 	2. HTTP server interrupt msg => send you the resource OR error msg
 	3. ![](media/Pasted%20image%2020251101173047.png)
 
 
-4. Absolute URLs(Uniform Resource Identifier)
+5. Absolute URLs(Uniform Resource Identifier)
 	1. string of characters that uniquely identifies a resource(file, mail, msg)
 	2. specifies:
 		1. the location of file
@@ -41,7 +56,7 @@
 		3. name of server.
 
 
-5. Relative URLs
+6. Relative URLs
 	1. type of URL specifies location of resource relative to current page.
 	2. DOESN'T include: domain name, protocol 
 	3. used to link resources in the same website wo specifying the whole URL.
@@ -50,7 +65,7 @@
 		2. RURL => only point to file/path, browser goes to that location on same site
 
 
-6. URNs(Uniform Resource Name)
+7. URNs(Uniform Resource Name)
 	1. only the name of resource
 	2. starts with (urn)
 	3. identifies resource without protocol/location.

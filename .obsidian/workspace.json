@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SWE2/Lec 1.md",
+                "file": "SWE2/SWE - L1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lec 1"
+              "title": "SWE - L1"
+            }
+          },
+          {
+            "id": "c33e43a811d3128e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SWE2/SWE - L2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SWE - L2"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "9b747517ce8f91dd",
@@ -182,8 +198,10 @@
       "markitdown:Convert to Markdown with Markitdown": false
     }
   },
-  "active": "9159b0ff75664bd5",
+  "active": "c33e43a811d3128e",
   "lastOpenFiles": [
+    "SWE2/SWE - L1.md",
+    "SWE2/SWE - L2.md",
     "SWE2/media/Pasted image 20251031202409.png",
     "SWE2/media/Pasted image 20251031183020.png",
     "SWE2/media/Pasted image 20251031181604.png",
@@ -192,13 +210,11 @@
     "Network Programming/media 1/Pasted image 20251027165403.png",
     "Network Programming/media 1/Pasted image 20251027165331.jpg",
     "Network Programming/media/1.png",
-    "SWE2/Lec 1.md",
     "CV/Image Enhancement - P2.md",
     "CV/media/Pasted image 20251027181746.png",
     "CV/media/Pasted image 20251027181724.png",
     "CV/media/Pasted image 20251027181717.png",
     "CV/media/Pasted image 20251027181543.png",
-    "CV/media/Pasted image 20251027181506.png",
     "Borders.canvas",
     "Network Programming/media 1",
     "CV/Image Enhancement - P1.md",
